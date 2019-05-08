@@ -268,3 +268,31 @@ caption {
   padding: 5px;
   margin-bottom: 10px;
 }
+/* お問い合わせページ */
+input, textarea {
+  display: block;
+}
+input {
+  width: 400px;
+}
+input[type="submit"] {
+  width: 200px;
+  background-color: #ffaa00;
+  background-image: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(#ffe7b8),
+    to(#ffaa00));
+  background-image: linear-gradient(
+    to bottom,
+    #ffe7b8 0%;
+    #ffaa00 100%;);
+  border: solid 1px #aaaaaa;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+textarea {
+  width: 600px;
+  height: 120px;
+}
