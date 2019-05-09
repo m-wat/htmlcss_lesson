@@ -21,7 +21,10 @@
 <article>
 <h1>お問い合わせ</h1>
 <p>ご意見、ご感想などがありましたら、以下の欄にご記入の上、送信してください。また、森の工房やイベントに関するご質問などもお気軽にお寄せください。</p>
-<form>
+<form action="https://www.rescue.ne.jp/form/mail.cgi" method="post">
+<input type="hidden" name="_uid" value="xxxxxxxxxxxxx">
+<input type="hidden" name="_done" value="https://www.www.wwww/">
+<input type="hidden" name="_subject" value="お問い合わせ">
 <p>
   <label>
     名前 : <input type="text" name="username">
@@ -40,6 +43,7 @@
 <p>
   <input type="submit" value="送信">
 </p>
+<small>Powered by <a href="http://www.rescue.ne.jp/" target="_blank">CGI RESCUE</a><sup>&reg;</sup></small>
 </form>
 </article>
 <footer>
